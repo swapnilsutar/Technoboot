@@ -1,0 +1,78 @@
+body{
+    background-image: url("../images/LANDING\ PAGE\ BG.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 100vh; */
+}
+nav{
+    /* width: 90%; */
+    border-bottom: 1px solid white!important;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.294)!important;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav-link{
+    color: white!important;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.842)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+.custom-toggler .navbar-toggler {
+    border-color: rgb(224, 194, 214);
+} 
+i{
+    font-size: 20px;
+}
+
+.carousel-indicators{
+    position: absolute;
+    margin-left: 0%;
+    justify-content: left;
+}
+.carousel-indicators li{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 1;
+    margin-left: 7px;
+}
+.carousel-indicators .active{
+    background-color: rgb(172, 132, 3);
+}
+.carousel-item{
+    /* position: absolute; */
+    height: 280px;
+    color: WHITE;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.exp_btn{
+    background-color: rgb(172, 132, 3);
+    font-size: 25px;
+    border: none;
+    color: white;
+    border-radius: 35px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 40px;
+    padding-right: 40px;   
+    font-family: 'Rajdhani', sans-serif;
+    transform: scaleX(0.911);
+}
+.title{
+    /* font-family: 'Bree Serif', serif;  */
+    font-family: 'Merienda One', cursive;
+    font-size: 50px;
+}
+.sub_title{
+    font-size: 22px;
+    font-style: italic;
+}
